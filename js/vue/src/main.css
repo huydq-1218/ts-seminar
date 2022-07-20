@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .content {
+    @apply w-screen h-screen flex items-center justify-center bg-neutral-50;
+  }
+  .card {
+    @apply w-[450px] box-border rounded-lg border-gray-300 shadow-lg bg-white px-4 py-6;
+  }
+  .title {
+    @apply text-center text-blue-500 text-2xl font-bold mb-4;
+  }
+  .page {
+    @apply mx-1 w-8 h-8 flex items-center justify-center border border-transparent rounded cursor-pointer text-blue-500 font-bold hover:text-white hover:bg-blue-500 transition;
+  }
+  .input {
+    @apply form-input rounded-md flex-1 border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50;
+  }
+  .btn-primary {
+    @apply rounded-md bg-blue-500 text-white uppercase py-2 px-4 ml-2 focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 hover:bg-blue-700
+  }
+}

@@ -31,7 +31,7 @@ export default function App() {
     return (
         <div className="content">
             <div className="card ">
-                <h3 className="title">Users with JS</h3>
+                <h3 className="title">Users with TS</h3>
                 <form className="flex items-center" onSubmit={handleAddUser}>
                     <input
                         type="text"

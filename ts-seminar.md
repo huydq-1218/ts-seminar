@@ -1,0 +1,20 @@
+- Không biết mọi người còn nhớ khôn nhưng cách đây khoảng hơn 1 năm công ty có gửi cho chúng ta một cái form để khảo sát ý kiến về việc "Có hay không sẽ đưa Typescript lên làm chuẩn hóa chung của công ty"
+- Hỏi bao nhiều người đồng ý và bao nhiêu người không đồng ý
+- Cá nhân hồi đó không đồng ý vì đang code JS vẫn thấy ok vẫn thấy ngon thì tự nhiên mang thêm cái type tiếc vào code làm gì cho thêm phiền phức. Nhưng đó là do từ trước đến giờ đều có cơ hội được phát triển project từ đâu, hầu hết code mình đều nắm được ngay lúc đó mà không cần đào sâu quá nhiều cho đến khi tham gia với team Viblo và phải maintain code base của các service cụ thể là phía bên front-end (seminar về TS). Vấn đề:
+  - Không hiểu được nội dung các biến dạng object (các thuộc tính hỗ trợ, kiểu dữ liệu)
+  - Với VueX thường xuyên cần mở storage để kiểm tra xem có thể làm những thao tác gì, kiểu dữ liệu gì
+- Vậy TypeScript giúp chúng ta giải quyết vấn đề như nào?
+- TypeScript là gì?
+- Run time vs Development time
+- Kiến thức cơ bản về TS:
+  - Các kiểu type, cú pháp, không cho đổi type
+  - Phải khai bảo type cho biến của function, type infer
+  - Casting và nullsafe
+  - Interface và custom type
+  - union type/ intersection type
+  - Generic (demo với Vue, React)
+- TS compile, sau khi compile gì, demo compile thử một file?
+- Demo với React/ Vue, Editor support như nào
+- 4 Example
+- Tổng kết về Ưu điểm/ nhược điểm
+- Khuyến khích mọi người dùng thử
